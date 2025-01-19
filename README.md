@@ -9,7 +9,8 @@ Create a folder and name it "HideTaskbar" in the root of your OS (Commonly >C:\.
 Extract nircmd into the folder.
 
 Create a .txt file and imput:
-        Set-Location -Path "C:\HideTaskbar"
+       
+	Set-Location -Path "C:\HideTaskbar"
 		
 Under the line, imput these two
        
