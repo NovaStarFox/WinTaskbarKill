@@ -12,9 +12,13 @@ Create a .txt file and imput:
         Set-Location -Path "C:\HideTaskbar"
 		
 Under the line, imput these two
-        .\nircmd.exe win trans class Shell_TrayWnd 255
-        .\nircmd.exe win trans class Shell_TrayWnd 256
+       
+	.\nircmd.exe win trans class Shell_TrayWnd 255
+        
+	.\nircmd.exe win trans class Shell_TrayWnd 256
 		
+
+
 Save as HideTaskbar.ps1 and have it in the root folder of "HideTaskbar"
 
 ##########################################################################
@@ -22,7 +26,8 @@ Save as HideTaskbar.ps1 and have it in the root folder of "HideTaskbar"
 Now do win+R and imput "shell:startup"
 
 Create a new shortcut in the folder and imput:
-        powershell.exe -ExecutionPolicy Bypass -File "C:\HideTaskbar\HideTaskbar.ps1"
+       
+	powershell.exe -ExecutionPolicy Bypass -File "C:\HideTaskbar\HideTaskbar.ps1"
 
 Save and dont rename
 		
