@@ -26,7 +26,7 @@ Save as HideTaskbar.ps1 and have it in the root folder of "HideTaskbar"
 
 Now do win+R and imput "shell:startup"
 
-Create a new shortcut in the folder and imput:
+Create a new shortcut in the folder and imput in Target:
        
 	powershell.exe -ExecutionPolicy Bypass -File "C:\HideTaskbar\HideTaskbar.ps1"
 
